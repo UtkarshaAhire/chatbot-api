@@ -2,7 +2,11 @@ from flask import Flask, request, jsonify
 import google.generativeai as genai
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Gemini API
+=======
+# Configure Gemini API
+>>>>>>> d0ff156 (Added Flask API files)
 =======
 # Configure Gemini API
 >>>>>>> d0ff156 (Added Flask API files)
@@ -24,7 +28,11 @@ def chat():
     user_message = data["message"]
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     # for Generateing AI response
+=======
+    # Generate AI response
+>>>>>>> d0ff156 (Added Flask API files)
 =======
     # Generate AI response
 >>>>>>> d0ff156 (Added Flask API files)
